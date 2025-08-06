@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+
+    color: #333;
+}
+
+header {
+    background: #0077cc;
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+nav {
+    background: #005fa3;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 1em auto;
+    box-shadow: 0 0 5px #aaa;
+}
+
+.certificate-img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 1em auto;
+    border: 2px solid #ccc;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.7em 1.2em;
+    background: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #005fa3;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 3em;
+}
